@@ -1,0 +1,19 @@
+nodes:
+  - name: clean_data
+    type: command
+    com.config:
+      command: sh clean_data.sh
+
+  - name: load_hive
+    type: command
+    com.config:
+      command: sh load_hive.sh
+    dependsOn:
+      - clean_data
+
+  - name: delete_path
+    type: command
+    com.config:
+      command: sh delete_path.sh
+    dependsOn:
+      - load_hive

@@ -1,0 +1,12 @@
+nodes:
+  - name: DwoUserBaseInfo
+    type: command
+    com.config:
+      command: sh DwoUserBaseInfo.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - DwoUserBaseInfo

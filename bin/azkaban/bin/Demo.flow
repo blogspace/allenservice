@@ -1,0 +1,12 @@
+nodes:
+  - name: Demo
+    type: command
+    com.config:
+      command: sh Demo.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh dataMerge.sh
+    dependsOn:
+      - Demo

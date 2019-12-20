@@ -1,0 +1,12 @@
+nodes:
+  - name: DimOrderOpt
+    type: command
+    com.config:
+      command: sh DimOrderOpt.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - DimOrderOpt

@@ -1,0 +1,12 @@
+nodes:
+  - name: DwcOrderUserBaseInfo
+    type: command
+    com.config:
+      command: sh DwcOrderUserBaseInfo.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - DwcOrderUserBaseInfo

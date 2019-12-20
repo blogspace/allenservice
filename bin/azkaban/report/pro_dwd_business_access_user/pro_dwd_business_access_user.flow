@@ -1,0 +1,26 @@
+nodes:
+  - name: DwdBusinessAccessUser
+    type: command
+    com.config:
+      command: sh DwdBusinessAccessUser.sh
+
+  - name: getMerge
+    type: command
+    com.config:
+      command: sh getMerge.sh
+    dependsOn:
+      - DwdBusinessAccessUser
+
+  - name: moveFromLocal
+    type: command
+    com.config:
+      command: sh moveFromLocal.sh
+    dependsOn:
+      - getMerge
+
+  - name: deletePath
+    type: command
+    com.config:
+      command: sh deletePath.sh
+    dependsOn:
+      - moveFromLocal

@@ -1,0 +1,12 @@
+nodes:
+  - name: sparkexample
+    type: command
+    com.config:
+      command: sh sparkexample.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - sparkexample

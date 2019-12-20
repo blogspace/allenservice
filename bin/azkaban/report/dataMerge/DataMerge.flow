@@ -1,0 +1,12 @@
+nodes:
+  - name: DataMerge
+    type: command
+    com.config:
+      command: sh DataMerge.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - DataMerge

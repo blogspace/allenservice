@@ -1,0 +1,12 @@
+nodes:
+  - name: DimUserAppOpt
+    type: command
+    com.config:
+      command: sh DimUserAppOpt.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - DimUserAppOpt

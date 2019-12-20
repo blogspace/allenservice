@@ -1,0 +1,26 @@
+nodes:
+  - name: logClean
+    type: command
+    com.config:
+      command: sh logClean.sh
+
+  - name: fileMerge
+    type: command
+    com.config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - logClean
+
+  - name: loadHive
+    type: command
+    com.config:
+      command: sh loadHive.sh
+    dependsOn:
+      - fileMerge
+
+  - name: deletePath
+    type: command
+    com.config:
+      command: sh deletePath.sh
+    dependsOn:
+      - loadHive
