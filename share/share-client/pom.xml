@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>share-mysql</artifactId>
+    <artifactId>share-client</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>share-client-mysql</module>

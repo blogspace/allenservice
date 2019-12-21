@@ -3,4 +3,21 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/bigdata/pom.xml" />
+        <option value="$PROJECT_DIR$/share/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-client/share-client-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/pom.xml" />
+        <option value="$PROJECT_DIR$/tmp/pom.xml" />
+        <option value="$PROJECT_DIR$/bin/pom.xml" />
+        <option value="$PROJECT_DIR$/doc/pom.xml" />
+        <option value="$PROJECT_DIR$/etc/pom.xml" />
+        <option value="$PROJECT_DIR$/logs/pom.xml" />
+        <option value="$PROJECT_DIR$/sbin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

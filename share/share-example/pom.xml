@@ -11,9 +11,6 @@
 
     <artifactId>share-example</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>share-example-demo</module>
-    </modules>
 
 
 </project>
