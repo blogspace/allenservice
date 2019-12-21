@@ -1,7 +1,526 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805e0432-59ff-4ee2-b847-00d941c0586e" name="Default Changelist" comment="" />
+    <list default="true" id="805e0432-59ff-4ee2-b847-00d941c0586e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/src/main/scala/com/demo/DeviceMonitorCEP.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/src/main/scala/com/demo/JdbcReader.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/src/main/scala/com/demo/kafkaProduct.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/src/main/scala/com/demo/SessionIdKeyedProcessFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/src/main/scala/com/demo/kafkaProduct.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/src/main/scala/com/demo/CountWithTimeoutFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/src/main/scala/com/demo/KeyedStateAgvFlatMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/src/main/scala/com/demo/KeyedStateDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-flink/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/src/main/scala/FPGrowth/FPGrowth.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/src/main/scala/Kmeans/MyKmeans1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/src/main/scala/Svm/Svm.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/src/main/scala/TreeDemo/TreeDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/data/churn-bigml-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/data/churn-bigml-80.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/service/impl/ChurnAnalysisServiceImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/util/AppUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/util/Constant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/util/DriverUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/src/main/scala/com.demo/util/SparkUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/hot_movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/.part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/.part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/.part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/.part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/product/part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/.part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/.part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/.part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/.part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/data/user/part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/metadata/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/metadata/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/metadata/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/model/metadata/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/result.csv/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/result.csv/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/result.csv/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/result.csv/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/data/user_movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/src/main/scala/demo1/DouBanRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/src/main/scala/com/controller/Pipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/src/main/scala/com/controller/Pipeline2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/src/main/scala/com/controller/Pipeline3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/data/jdata_action.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/data/jdata_comment.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/data/jdata_product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/data/jdata_shop.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/data/jdata_user.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/service/impl/PurchaseForecastServiceImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/util/AppUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/util/Constant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/util/DriverUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/src/main/scala/com/demo/util/SparkUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/controller/DouBanController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/repository/IDouBanRepository.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/service/IDouBanService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/uils/AppConf.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/uils/ComputeUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/uils/Constants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/uils/DriverUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/uils/ProjectUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/com/uils/SparkUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/data/hot_movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/src/main/scala/data/user_movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/controller/SentimentAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/utils/commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/utils/lucene-analyzers-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/utils/lucene-core-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/utils/paoding-analysis.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/src/main/scala/utils/tokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-mllib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/bin/logclean.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/src/main/scala/com/controller/LogDetail.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/src/main/scala/com/service/LogDetailService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/java/com/WeblogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/java/com/controller/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/java/com/controller/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/java/com/controller/WebLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/resources/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/resources/templates/miao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/src/test/java/com/WeblogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-pro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-spark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-spider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/mains/DataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/utils/SpiderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/DemoAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/dao/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/dao/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/dao/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/dao/VueLoginInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/service/ResultFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/test/java/com/DemoAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/config/test.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/demo-vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/components/common/BlogFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/components/common/BlogHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/components/home/BlogIndex.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/components/manage/BlogLogin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/e2e/nightwatch.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/e2e/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/e2e/specs/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/unit/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/unit/jest.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/unit/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-vue/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/src/main/java/com/FlinkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/src/main/java/com/controller/FlinkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/src/main/java/com/service/FlinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/src/test/java/com/FlinkApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/java/com/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/java/com/controller/HbaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/java/com/properties/HbaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/java/com/properties/HbaseProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/java/com/service/IHbaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/java/com/service/impl/HbaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/src/test/java/com/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/java/com/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/java/com/controller/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/java/com/mapper/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/java/com/mapper/ItemsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/java/com/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/src/test/java/com/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/config/BeetlConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/config/DefineAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/config/MVCConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/config/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/entity/SessionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/service/AdminUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/java/com/service/impl/AdminUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/beetl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/css/cdn/font_520106_q8xykrwf86ywrk9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/css/cdn/pace-theme-flash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/css/fs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/font/font_520106_q8xykrwf86ywrk9-iefix.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/font/font_520106_q8xykrwf86ywrk9.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/font/font_520106_q8xykrwf86ywrk9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/font/font_520106_q8xykrwf86ywrk9.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/cdn/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/core/codeGen/codeApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/core/codeGen/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/core/codeGen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/core/codeGen/project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/del.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/roleApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/roleData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/roleFn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/js/role/roleUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/css/component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/img/demo-1-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/img/login_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/js/EasePack.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/js/TweenLite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/js/demo-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/login/js/rAF.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/frame/js/fsTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/frame/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/frame/views/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/metroStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/css/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/static/plugins/ztree/js/jquery.ztree.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/query/fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/query/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/query/org.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/query/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/simpleUpload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/accessButton.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/attachment.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/closeButton.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/functionInput.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/menuFunctionInput.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/menuInput.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/orgInput.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/roleInput.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/searchForm.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/simpleDataSelect.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/simpleDictSelect.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/common/tag/submitButtons.tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/ind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/src/test/java/com/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/java/com/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/java/com/properties/HomeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/java/com/properties/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/java/com/properties/UserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/java/com/web/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/src/test/java/com/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/java/com/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/java/com/config/ContextFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/java/com/config/SparkConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/java/com/controller/SparkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/java/com/service/SparkDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/src/test/java/com/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/lib-flink-devicemonitor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/lib-flink-sessionmonitor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/lib-flink-statedemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-flink/lib-flink.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/lib-mllib-algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/lib-mllib-churnanalysis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/lib-mllib-doubanrecommender.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/lib-mllib-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/lib-mllib-SentimentAnalysis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/lib-springboot-hbase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/lib-springboot-mysql.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-pro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/lib-springboot-properties.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/lib-springboot-spark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +549,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -66,27 +595,24 @@
       <option name="presentableId" value="Default" />
       <updated>1576854129507</updated>
       <workItem from="1576854130783" duration="35000" />
+      <workItem from="1576892277472" duration="721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35000" />
+    <option name="totallyTimeSpent" value="756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -94,17 +620,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="leetcode" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">

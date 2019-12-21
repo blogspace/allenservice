@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lib</artifactId>
+        <groupId>com</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lib-mllib</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lib-mllib-doubanrecommender</module>
+        <module>lib-mllib-algorithm</module>
+        <module>lib-mllib-churnanalysis</module>
+        <module>lib-mllib-purchaseforecast</module>
+        <module>lib-mllib-recommendation</module>
+        <module>lib-mllib-sentimentanalysis</module>
+        <module>lib-mllib-example</module>
+    </modules>
+
+
+</project>
