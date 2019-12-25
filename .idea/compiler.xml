@@ -6,15 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logs" />
         <module name="lib-springboot-spark" />
+        <module name="share-flink-metric" />
         <module name="share-flink-sql" />
         <module name="lib-mllib-doubanrecommender" />
         <module name="demo-admin" />
         <module name="lib-mllib-recommendation" />
         <module name="lib-flink-statedemo" />
         <module name="share-client-redis" />
-        <module name="share-spark-connectors-mysql" />
         <module name="share-spark-connectors-hbase" />
         <module name="spark" />
         <module name="share-spark-connectors-hive" />
@@ -25,31 +24,33 @@
         <module name="lib-mllib-algorithm" />
         <module name="share-flink-connectors-redis" />
         <module name="lib-mllib-example" />
-        <module name="sbin" />
         <module name="lib-spider" />
         <module name="lib-springboot-flink" />
         <module name="lib-flink-sessionmonitor" />
         <module name="lib-springboot-properties" />
         <module name="lib-springboot-demo" />
         <module name="share-flink-connectors-mysql" />
-        <module name="lib-mllib-SentimentAnalysis" />
-        <module name="share-flink-metric" />
+        <module name="sbin" />
+        <module name="lib-springboot-demo (1)" />
         <module name="share-client-hbase" />
         <module name="lib-springboot-hbase" />
         <module name="share-client-kafka" />
         <module name="tmp" />
+        <module name="share-spark-connectors-redis" />
         <module name="lib-flink-devicemonitor" />
         <module name="lib-pro-logclean" />
         <module name="share-util" />
         <module name="lib-springboot-pro" />
-        <module name="share-spark-connectors-redis" />
+        <module name="lib-mllib-SentimentAnalysis" />
         <module name="lib-pro-weblog" />
         <module name="lib-mllib-purchaseforecast" />
         <module name="share-flink-connectors-hbase" />
         <module name="lib-mllib-churnanalysis" />
-        <module name="lib-spark" />
+        <module name="logs" />
         <module name="share-flink-connectors-kafka" />
         <module name="share-client-hdfs" />
+        <module name="lib-spark" />
+        <module name="share-spark-connectors-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -77,7 +78,8 @@
       <module name="lib-spark" target="1.5" />
       <module name="lib-spider" target="1.5" />
       <module name="lib-springboot" target="1.5" />
-      <module name="lib-springboot-demo" target="1.5" />
+      <module name="lib-springboot-demo" target="1.8" />
+      <module name="lib-springboot-demo (1)" target="1.5" />
       <module name="lib-springboot-demo (2)" target="1.8" />
       <module name="lib-springboot-flink" target="1.8" />
       <module name="lib-springboot-hbase" target="1.8" />
@@ -119,6 +121,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-admin" options="-parameters" />
       <module name="lib-pro-weblog" options="-parameters" />
+      <module name="lib-springboot-demo" options="-parameters" />
       <module name="lib-springboot-demo (2)" options="-parameters" />
       <module name="lib-springboot-flink" options="-parameters" />
       <module name="lib-springboot-hbase" options="-parameters" />
