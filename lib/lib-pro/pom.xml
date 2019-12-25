@@ -11,10 +11,7 @@
 
     <artifactId>lib-pro</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>lib-pro-logclean</module>
-        <module>lib-pro-weblog</module>
-    </modules>
+
 
 
 </project>

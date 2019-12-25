@@ -11,14 +11,6 @@
 
     <artifactId>lib-springboot</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>lib-springboot-pro</module>
-        <module>lib-springboot-demo</module>
-        <module>lib-springboot-flink</module>
-        <module>lib-springboot-spark</module>
-        <module>lib-springboot-mysql</module>
-        <module>lib-springboot-hbase</module>
-        <module>lib-springboot-properties</module>
-    </modules>
+
 
 </project>

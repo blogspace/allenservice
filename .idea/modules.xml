@@ -29,8 +29,9 @@
       <module fileurl="file://$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" filepath="$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" filepath="$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo (1).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (2).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" />

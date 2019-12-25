@@ -16,6 +16,15 @@
         <option value="$PROJECT_DIR$/etc/pom.xml" />
         <option value="$PROJECT_DIR$/logs/pom.xml" />
         <option value="$PROJECT_DIR$/sbin/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/pom.xml" />
       </list>
     </option>
   </component>
