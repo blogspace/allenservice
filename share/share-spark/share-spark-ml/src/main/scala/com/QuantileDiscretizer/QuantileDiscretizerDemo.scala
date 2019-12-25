@@ -1,0 +1,43 @@
+package com.QuantileDiscretizer
+
+// $example on$
+import org.apache.spark.SparkConf
+import org.apache.spark.ml.feature.QuantileDiscretizer
+// $example off$
+import org.apache.spark.sql.SparkSession
+
+/**
+  * 连续型数据处理之给定分位数离散化
+  */
+object QuantileDiscretizerDemo {
+  def main(args: Array[String]) {
+    val sparkConf = new SparkConf();
+    sparkConf.setMaster("local[*]").setAppName(this.getClass.getSimpleName)
+    val spark = SparkSession
+      .builder
+      .config(sparkConf)
+      .appName("QuantileDiscretizerExample")
+      .getOrCreate()
+
+    // $example on$
+    val data = Array((0, 18.0), (1, 19.0), (2, 8.0), (3, 5.0), (4, 2.2))
+    val df = spark.createDataFrame(data).toDF("id", "hour")
+      // $example off$
+      // Output of QuantileDiscretizer for such small datasets can depend on the number of
+      // partitions. Here we force a single partition to ensure consistent results.
+      // Note this is not necessary for normal use cases
+      .repartition(1)
+
+    // $example on$
+    val discretizer = new QuantileDiscretizer()
+      .setInputCol("hour")
+      .setOutputCol("result")
+      .setNumBuckets(3)
+
+    val result = discretizer.fit(df).transform(df)
+    result.show(false)
+    // $example off$
+
+    spark.stop()
+  }
+}

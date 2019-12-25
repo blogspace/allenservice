@@ -15,6 +15,7 @@
         <module name="lib-mllib-recommendation" />
         <module name="lib-flink-statedemo" />
         <module name="share-client-redis" />
+        <module name="share-spark-ml" />
         <module name="share-spark-connectors-hbase" />
         <module name="share-spark-connectors-hive" />
         <module name="share-spark-connectors-kafka" />
@@ -113,6 +114,7 @@
       <module name="share-spark-connectors-kafka" target="1.5" />
       <module name="share-spark-connectors-mysql" target="1.5" />
       <module name="share-spark-connectors-redis" target="1.5" />
+      <module name="share-spark-ml" target="1.5" />
       <module name="share-util" target="1.5" />
       <module name="spark" target="1.5" />
       <module name="tmp" target="1.8" />

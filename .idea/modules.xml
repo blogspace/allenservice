@@ -70,6 +70,7 @@
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-kafka/share-spark-connectors-kafka.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-kafka/share-spark-connectors-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-mysql/share-spark-connectors-mysql.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-mysql/share-spark-connectors-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-redis/share-spark-connectors-redis.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-redis/share-spark-connectors-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/share-spark-ml.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-ml/share-spark-ml.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-util/share-util.iml" filepath="$PROJECT_DIR$/share/share-util/share-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />
     </modules>
