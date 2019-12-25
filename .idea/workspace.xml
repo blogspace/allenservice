@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805e0432-59ff-4ee2-b847-00d941c0586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Binarizer/BinarizerDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Bucketizer/BucketizerDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/QuantileDiscretizer/QuantileDiscretizerDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/share-spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/share/share-spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bigdata/target/" />
     <ignored path="$PROJECT_DIR$/bigdata/spark/target/" />
@@ -84,118 +79,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/pom.xml">
+        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Bucketizer/BucketizerDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/MaxAbsScaler/MaxAbsScalerDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="112">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#41#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/SQLTransformer/SQLTransformerDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#44#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/PolynomialExpansion/PolynomialExpansionDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#49#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/NGram/NGramDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="e#36#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/MinMaxScaler/MinMaxScalerDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="e#42#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/StandardScaler/StandardScalerDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#44#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/QuantileDiscretizer/QuantileDiscretizerDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="e#49#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Binarizer/BinarizerDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="e#39#72#0" expanded="true" />
+                <element signature="e#24#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Bucketizer/BucketizerDemo.scala">
+        <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/ElementwiseProduct/ElementwiseProductDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#32#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-flink/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#24#69#0" expanded="true" />
-              </folding>
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -237,6 +203,9 @@
         <option value="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/QuantileDiscretizer/QuantileDiscretizerDemo.scala" />
         <option value="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Binarizer/BinarizerDemo.scala" />
         <option value="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Bucketizer/BucketizerDemo.scala" />
+        <option value="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/ElementwiseProduct/ElementwiseProductDemo.scala" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" />
       </list>
     </option>
   </component>
@@ -288,70 +257,22 @@
               <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="allenservice" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-mllib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-springboot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="allenservice" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-mllib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-mllib-example" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-springboot-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark-ml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark-ml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark-ml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark-ml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark" type="462c0819:PsiDirectoryNode" />
-              <item name="share-spark-ml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +285,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-runrecommender" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -457,7 +378,7 @@
       <workItem from="1576854130783" duration="35000" />
       <workItem from="1576892277472" duration="2378000" />
       <workItem from="1577254270740" duration="263000" />
-      <workItem from="1577256072906" duration="1340000" />
+      <workItem from="1577256072906" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <created>1576893175549</created>
@@ -501,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577257252244</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="check">
+      <created>1577257493477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577257493477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4016000" />
+    <option name="totallyTimeSpent" value="4290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -556,26 +484,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="check" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/share/share-client/share-client-hdfs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-hbase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -698,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -770,26 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="25" selection-start-line="13" selection-start-column="7" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -830,7 +711,7 @@
     <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/NGram/NGramDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="e#36#69#0" expanded="true" />
           </folding>
@@ -850,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/StandardScaler/StandardScalerDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#44#77#0" expanded="true" />
           </folding>
@@ -880,10 +761,68 @@
     <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Bucketizer/BucketizerDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#24#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/ElementwiseProduct/ElementwiseProductDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#32#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-flink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -937,7 +876,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lib-mllib-runrecommender</last-edited>
+          <last-edited>demo-admin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
