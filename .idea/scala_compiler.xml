@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="lib-pro-logclean,tmp" />
+    <profile name="Maven 1" modules="lib-mllib-runrecommender,lib-pro-logclean,tmp" />
   </component>
 </project>

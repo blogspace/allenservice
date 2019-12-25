@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/allenservice.iml" filepath="$PROJECT_DIR$/.idea/allenservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/bigdata.iml" filepath="$PROJECT_DIR$/bigdata/bigdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/bin/bin.iml" filepath="$PROJECT_DIR$/bin/bin.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" />
@@ -22,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/lib-mllib-example.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/lib-mllib-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-runrecommender/lib-mllib-runrecommender.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-runrecommender/lib-mllib-runrecommender.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" />
@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (2).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" />
@@ -70,7 +71,6 @@
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-mysql/share-spark-connectors-mysql.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-mysql/share-spark-connectors-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-redis/share-spark-connectors-redis.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-redis/share-spark-connectors-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-util/share-util.iml" filepath="$PROJECT_DIR$/share/share-util/share-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/spark/spark.iml" filepath="$PROJECT_DIR$/bigdata/spark/spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />
     </modules>
   </component>
