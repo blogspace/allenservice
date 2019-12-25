@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/allenservice.iml" filepath="$PROJECT_DIR$/.idea/allenservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/bin/bin.iml" filepath="$PROJECT_DIR$/bin/bin.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/doc/doc.iml" filepath="$PROJECT_DIR$/doc/doc.iml" />
       <module fileurl="file://$PROJECT_DIR$/etc/etc.iml" filepath="$PROJECT_DIR$/etc/etc.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
@@ -25,25 +24,16 @@
       <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/lib-pro-weblog.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" filepath="$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" filepath="$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (2).iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core/lib-springboot-demo (2).iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/lib-springboot-hbase.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/lib-springboot-hbase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/lib-springboot-hbase.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/lib-springboot-hbase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/lib-springboot-mysql.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/lib-springboot-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/lib-springboot-mysql.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/lib-springboot-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-pro.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-pro.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/lib-springboot-properties.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/lib-springboot-properties.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/lib-springboot-properties.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/lib-springboot-properties.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/lib-springboot-spark.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/lib-springboot-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/lib-springboot-spark.iml" filepath="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/lib-springboot-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/logs/logs.iml" filepath="$PROJECT_DIR$/logs/logs.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbin/sbin.iml" filepath="$PROJECT_DIR$/sbin/sbin.iml" />

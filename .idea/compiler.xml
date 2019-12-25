@@ -71,7 +71,7 @@
       <module name="lib-mllib-doubanrecommender" target="1.5" />
       <module name="lib-mllib-example" target="1.5" />
       <module name="lib-mllib-purchaseforecast" target="1.5" />
-      <module name="lib-mllib-recommendation" target="1.5" />
+      <module name="lib-mllib-recommendation" target="1.8" />
       <module name="lib-mllib-runrecommender" target="1.8" />
       <module name="lib-mllib-SentimentAnalysis" target="1.5" />
       <module name="lib-pro" target="1.5" />

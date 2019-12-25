@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805e0432-59ff-4ee2-b847-00d941c0586e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ml_dmlc_xgboost4j_0_90.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jblas_jblas_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/lib-mllib-SentimentAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/lib-mllib-SentimentAnalysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bigdata/target/" />
     <ignored path="$PROJECT_DIR$/bigdata/spark/target/" />
@@ -73,55 +90,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/Bucketizer/BucketizerDemo.scala">
+        <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#24#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="448">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="56">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/ElementwiseProduct/ElementwiseProductDemo.scala">
+        <entry file="file://$PROJECT_DIR$/share/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#32#65#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
@@ -130,26 +155,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/pom.xml">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-runrecommender/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-example/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-flink/pom.xml">
+        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -158,10 +169,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/lib-mllib/pom.xml">
+        <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/DemoAdminApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="280">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -206,6 +235,10 @@
         <option value="$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/ElementwiseProduct/ElementwiseProductDemo.scala" />
         <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -248,32 +281,6 @@
               <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="allenservice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-springboot-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allenservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allenservice" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -283,6 +290,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin" />
@@ -291,7 +299,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -378,7 +386,9 @@
       <workItem from="1576854130783" duration="35000" />
       <workItem from="1576892277472" duration="2378000" />
       <workItem from="1577254270740" duration="263000" />
-      <workItem from="1577256072906" duration="1614000" />
+      <workItem from="1577256072906" duration="2910000" />
+      <workItem from="1577259036913" duration="309000" />
+      <workItem from="1577259384008" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <created>1576893175549</created>
@@ -429,16 +439,23 @@
       <option name="project" value="LOCAL" />
       <updated>1577257493477</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="check">
+      <created>1577257717171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577257717171</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4290000" />
+    <option name="totallyTimeSpent" value="6179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +472,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.329927" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -469,116 +486,61 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="SciView" order="7" weight="0.3299595" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3299595" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3299595" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check" />
     <option name="LAST_COMMIT_MESSAGE" value="check" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="108" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-client/share-client-hbase/src/main/java/com/hbase/HBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-client/share-client-hbase/src/main/java/com/hbase/HBaseWithPhoenix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/src/main/java/demotest/LowerUDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/src/main/java/demotest/lowerudf.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-flink/src/main/java/com/mysql/JdbcWriter.java" />
-    <entry file="file://$PROJECT_DIR$/share/share-flink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/share/share-flink/src/main/java/com/hbase/HbaseReader.java" />
     <entry file="file://$PROJECT_DIR$/share/share-flink/src/main/java/com/hbase/HbaseWriter.java" />
     <entry file="file://$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/mains/DataTest.java">
@@ -637,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-runrecommender/src/main/scala/com/service/recommend.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -675,16 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/MaxAbsScaler/MaxAbsScalerDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#41#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,10 +764,108 @@
     <entry file="file://$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/demo-admin.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark/lib-springboot-spark.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/lib-springboot-mysql.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/lib-springboot-hbase.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-flink/lib-springboot-flink.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/src/main/scala/com/MaxAbsScaler/MaxAbsScalerDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#41#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-runrecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/demo-admin/src/main/java/com/DemoAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-demo/lib-springboot-demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
