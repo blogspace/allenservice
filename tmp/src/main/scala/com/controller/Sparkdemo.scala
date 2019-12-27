@@ -13,6 +13,7 @@ object Sparkdemo {
     val spark = SparkSession.builder().appName("demo").master("local[*]")
       .enableHiveSupport()
       .getOrCreate()
+
     import spark.implicits._
     spark.sql("use log")
     spark.sql("select count(*) from demo").show()
