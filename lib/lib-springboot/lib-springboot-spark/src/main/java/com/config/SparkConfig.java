@@ -14,6 +14,4 @@ import org.springframework.stereotype.Component;
 public class SparkConfig {
     private String appName;
     private String master;
-
-
 }

@@ -23,7 +23,6 @@
  <value>1</value>
 </property>
 				
-先不设置
 <!--是否开启HDFS的权限检查，默认true-->
 <property>
  <name>dfs.permissions</name>

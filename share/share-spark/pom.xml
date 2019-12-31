@@ -14,6 +14,9 @@
     <modules>
         <module>share-spark-connectors</module>
         <module>share-spark-ml</module>
+        <module>share-spark-launcher</module>
+        <module>share-spark-metric</module>
+        <module>share-spark-restful</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->

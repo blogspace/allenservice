@@ -16,6 +16,8 @@
         <module>share-client-redis</module>
         <module>share-client-hdfs</module>
         <module>share-client-hbase</module>
+        <module>share-client-hive</module>
+        <module>share-client-es</module>
     </modules>
     <dependencies>
         <dependency>

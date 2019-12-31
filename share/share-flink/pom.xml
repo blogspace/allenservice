@@ -15,6 +15,7 @@
         <module>share-flink-metric</module>
         <module>share-flink-connectors</module>
         <module>share-flink-sql</module>
+        <module>share-flink-restful</module>
     </modules>
 <!--    <dependencies>-->
 <!--        <dependency>-->

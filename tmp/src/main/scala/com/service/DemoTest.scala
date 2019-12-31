@@ -28,30 +28,10 @@ object DemoTest {
     partitons(1) = "1=1 limit 10000,10000"
     partitons(2) = "1=1 limit 20000,10000"
 
-    val result = loadD(sqlContext, properties(), partitons).rdd.getNumPartitions
-    println(result)
-    //    Logger.getLogger("org").setLevel(Level.ERROR)spark://192.168.192.10:7077
-    //    val conf = new SparkConf().setAppName("tset").setMaster("spark://192.168.192.10:7077")
-    //      .setJars(List("D:\\workspace\\idea\\DataProject\\tmp\\target\\LowerUDF-jar-with-dependencies.jar"))
-    //      .set("spark.executor.memory", "1g")
-    //    //.set("spark.driver.memory",)
-    //    val sc = new SparkContext(conf)
-    //    val sqlContext = new SQLContext(sc)
-    //    import sqlContext.implicits._
-    //    Thread.sleep(20000)
-    //    println("---------------------")
-    //    val data = sqlContext.read.text("D:\\admin\\Desktop\\log").as[String].map(line => {
-    //      val x = line.split("\t", -1)
-    //      logschema(x(0), x(1).toInt, x(2), x(3), x(4), x(5), x(6), x(7), x(8), x(9), x(10), x(11), x(12), x(13))
-    //    })
-    //    loadDB(sqlContext, properties()).printSchema()
-    //    data.printSchema()
-    //    val lines = sqlContext.readStream.format("socket").option("host", "localhost").option("port", 6666).load()
-    //    lines.printSchema()
-    //    val data = lines.as[String].map(line => {
-    //      val x = line.split("\t", -1)
-    //      logschema(x(0), x(1).toInt, x(2), x(3), x(4), x(5), x(6), x(7), x(8), x(9), x(10), x(11), x(12), x(13))
-    //
+//    val result = loadD(sqlContext, properties(), partitons).rdd.getNumPartitions
+    loadDB(sqlContext,properties).registerTempTable("tmp")
+   val query = sqlContext.sql("select * from tmp where offsetNum >100 limit 5")
+    query.explain(true)
   }
 
   def loadDB(sqlContext: SQLContext, prop: Properties) = {

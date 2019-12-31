@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-pro/lib-springboot-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share/share-spark/share-spark-launcher" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tmp" charset="UTF-8" />
   </component>
 </project>

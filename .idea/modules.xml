@@ -39,8 +39,10 @@
       <module fileurl="file://$PROJECT_DIR$/sbin/sbin.iml" filepath="$PROJECT_DIR$/sbin/sbin.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share.iml" filepath="$PROJECT_DIR$/share/share.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client.iml" filepath="$PROJECT_DIR$/share/share-client/share-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-es/share-client-es.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-es/share-client-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-hbase/share-client-hbase.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-hbase/share-client-hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-hdfs/share-client-hdfs.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-hdfs/share-client-hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-hive/share-client-hive.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-hive/share-client-hive.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-kafka/share-client-kafka.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-kafka/share-client-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-mysql/share-client-mysql.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-mysql/share-client-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-redis/share-client-redis.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-redis/share-client-redis.iml" />
@@ -52,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-mysql/share-flink-connectors-mysql.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-mysql/share-flink-connectors-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-redis/share-flink-connectors-redis.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-redis/share-flink-connectors-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-metric/share-flink-metric.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-metric/share-flink-metric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-restful/share-flink-restful.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-restful/share-flink-restful.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-sql/share-flink-sql.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-sql/share-flink-sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors.iml" />
@@ -60,7 +63,10 @@
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-kafka/share-spark-connectors-kafka.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-kafka/share-spark-connectors-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-mysql/share-spark-connectors-mysql.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-mysql/share-spark-connectors-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-redis/share-spark-connectors-redis.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-connectors/share-spark-connectors-redis/share-spark-connectors-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-launcher/share-spark-launcher.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-launcher/share-spark-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-metric/share-spark-metric.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-metric/share-spark-metric.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-ml/share-spark-ml.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-ml/share-spark-ml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark-restful/share-spark-restful.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark-restful/share-spark-restful.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-util/share-util.iml" filepath="$PROJECT_DIR$/share/share-util/share-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />
     </modules>
