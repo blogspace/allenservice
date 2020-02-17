@@ -16,6 +16,7 @@
         <module>share-flink-connectors-mysql</module>
         <module>share-flink-connectors-kafka</module>
         <module>share-flink-connectors-redis</module>
+        <module>share-flink-connectors-socket</module>
     </modules>
 
 

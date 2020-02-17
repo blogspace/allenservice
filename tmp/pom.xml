@@ -129,11 +129,6 @@
             <artifactId>disruptor</artifactId>
             <version>3.4.2</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.xpatterns</groupId>-->
-<!--            <artifactId>spark-job-rest-api</artifactId>-->
-<!--            <version>0.3.1</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>com.github.ywilkof</groupId>
             <artifactId>spark-jobs-rest-client</artifactId>
@@ -207,6 +202,16 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+        </plugins>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>

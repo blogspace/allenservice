@@ -18,6 +18,7 @@
         <module>share-client-hbase</module>
         <module>share-client-hive</module>
         <module>share-client-es</module>
+        <module>share-client-socket</module>
     </modules>
     <dependencies>
         <dependency>

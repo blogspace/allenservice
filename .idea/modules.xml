@@ -46,6 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-kafka/share-client-kafka.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-kafka/share-client-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-mysql/share-client-mysql.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-mysql/share-client-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-redis/share-client-redis.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-redis/share-client-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-client/share-client-socket/share-client-socket.iml" filepath="$PROJECT_DIR$/share/share-client/share-client-socket/share-client-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-example/share-example.iml" filepath="$PROJECT_DIR$/share/share-example/share-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors.iml" />
@@ -53,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-kafka/share-flink-connectors-kafka.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-kafka/share-flink-connectors-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-mysql/share-flink-connectors-mysql.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-mysql/share-flink-connectors-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-redis/share-flink-connectors-redis.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-redis/share-flink-connectors-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-socket/share-flink-connectors-socket.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-connectors/share-flink-connectors-socket/share-flink-connectors-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-metric/share-flink-metric.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-metric/share-flink-metric.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-restful/share-flink-restful.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-restful/share-flink-restful.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink-sql/share-flink-sql.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink-sql/share-flink-sql.iml" />

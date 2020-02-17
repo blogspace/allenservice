@@ -30,8 +30,8 @@ object DemoTest {
 
 //    val result = loadD(sqlContext, properties(), partitons).rdd.getNumPartitions
     loadDB(sqlContext,properties).registerTempTable("tmp")
-   val query = sqlContext.sql("select * from tmp where offsetNum >100 limit 5")
-    query.explain(true)
+   val query = sqlContext.sql("select * from tmp where offsetNum >100 limit 10")
+    query.write.parquet("D:\\admin\\Desktop\\demo\\test")
   }
 
   def loadDB(sqlContext: SQLContext, prop: Properties) = {

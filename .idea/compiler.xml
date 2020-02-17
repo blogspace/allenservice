@@ -6,58 +6,60 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="logs" />
         <module name="lib-springboot-spark" />
         <module name="share-spark-restful" />
         <module name="share-client-hive" />
         <module name="share-flink-metric" />
-        <module name="share-flink-restful" />
+        <module name="share-flink-sql" />
         <module name="lib-mllib-doubanrecommender" />
         <module name="demo-admin" />
         <module name="lib-mllib-recommendation" />
         <module name="lib-flink-statedemo" />
         <module name="share-client-redis" />
         <module name="share-spark-ml" />
+        <module name="share-spark-connectors-mysql" />
         <module name="share-spark-connectors-hbase" />
         <module name="share-spark-connectors-hive" />
         <module name="share-spark-connectors-kafka" />
         <module name="lib-springboot-demo (2)" />
         <module name="share-client-mysql" />
         <module name="lib-springboot-mysql" />
+        <module name="share-flink-restful" />
         <module name="lib-mllib-algorithm" />
         <module name="share-flink-connectors-redis" />
         <module name="lib-mllib-example" />
         <module name="lib-spider" />
         <module name="lib-springboot-flink" />
+        <module name="share-flink-connectors-socket" />
         <module name="lib-flink-sessionmonitor" />
         <module name="lib-springboot-properties" />
-        <module name="share-flink-sql" />
         <module name="lib-springboot-demo" />
         <module name="share-flink-connectors-mysql" />
-        <module name="lib-flink-devicemonitor" />
+        <module name="lib-mllib-SentimentAnalysis" />
         <module name="sbin" />
-        <module name="share-spark-connectors-redis" />
         <module name="share-client-hbase" />
         <module name="lib-springboot-hbase" />
         <module name="share-client-kafka" />
         <module name="tmp" />
         <module name="lib-springboot-demo (1)" />
-        <module name="lib-mllib-runrecommender" />
+        <module name="share-client-socket" />
+        <module name="lib-flink-devicemonitor" />
         <module name="lib-pro-logclean" />
         <module name="share-spark-metric" />
         <module name="share-util" />
         <module name="lib-springboot-pro" />
-        <module name="lib-mllib-SentimentAnalysis" />
+        <module name="share-spark-connectors-redis" />
         <module name="lib-pro-weblog" />
         <module name="lib-mllib-purchaseforecast" />
         <module name="share-flink-connectors-hbase" />
         <module name="lib-mllib-churnanalysis" />
-        <module name="logs" />
+        <module name="lib-mllib-runrecommender" />
         <module name="share-flink-connectors-kafka" />
         <module name="share-client-es" />
-        <module name="share-client-hdfs" />
         <module name="lib-spark" />
         <module name="share-spark-launcher" />
-        <module name="share-spark-connectors-mysql" />
+        <module name="share-client-hdfs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -106,6 +108,7 @@
       <module name="share-client-kafka" target="1.8" />
       <module name="share-client-mysql" target="1.5" />
       <module name="share-client-redis" target="1.5" />
+      <module name="share-client-socket" target="1.5" />
       <module name="share-example" target="1.5" />
       <module name="share-flink" target="1.5" />
       <module name="share-flink-connectors" target="1.5" />
@@ -113,6 +116,7 @@
       <module name="share-flink-connectors-kafka" target="1.5" />
       <module name="share-flink-connectors-mysql" target="1.8" />
       <module name="share-flink-connectors-redis" target="1.5" />
+      <module name="share-flink-connectors-socket" target="1.5" />
       <module name="share-flink-metric" target="1.5" />
       <module name="share-flink-restful" target="1.5" />
       <module name="share-flink-sql" target="1.8" />

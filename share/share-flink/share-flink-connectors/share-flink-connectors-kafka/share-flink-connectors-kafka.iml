@@ -10,6 +10,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-kafka-0.11_2.11:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-kafka-0.10_2.11:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-kafka-0.9_2.11:1.9.0" level="project" />
