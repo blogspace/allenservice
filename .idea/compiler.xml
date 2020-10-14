@@ -10,7 +10,7 @@
         <module name="lib-springboot-spark" />
         <module name="share-spark-restful" />
         <module name="share-client-hive" />
-        <module name="share-flink-metric" />
+        <module name="share-spark-launcher" />
         <module name="share-flink-sql" />
         <module name="lib-mllib-doubanrecommender" />
         <module name="demo-admin" />
@@ -18,17 +18,16 @@
         <module name="lib-flink-statedemo" />
         <module name="share-client-redis" />
         <module name="share-spark-ml" />
-        <module name="share-spark-connectors-mysql" />
         <module name="share-spark-connectors-hbase" />
         <module name="share-spark-connectors-hive" />
         <module name="share-spark-connectors-kafka" />
         <module name="lib-springboot-demo (2)" />
         <module name="share-client-mysql" />
         <module name="lib-springboot-mysql" />
-        <module name="share-flink-restful" />
         <module name="lib-mllib-algorithm" />
         <module name="share-flink-connectors-redis" />
         <module name="lib-mllib-example" />
+        <module name="sbin" />
         <module name="lib-spider" />
         <module name="lib-springboot-flink" />
         <module name="share-flink-connectors-socket" />
@@ -37,7 +36,8 @@
         <module name="lib-springboot-demo" />
         <module name="share-flink-connectors-mysql" />
         <module name="lib-mllib-SentimentAnalysis" />
-        <module name="sbin" />
+        <module name="share-flink-metric" />
+        <module name="share-spark-connectors-redis" />
         <module name="share-client-hbase" />
         <module name="lib-springboot-hbase" />
         <module name="share-client-kafka" />
@@ -49,7 +49,7 @@
         <module name="share-spark-metric" />
         <module name="share-util" />
         <module name="lib-springboot-pro" />
-        <module name="share-spark-connectors-redis" />
+        <module name="share-flink-restful" />
         <module name="lib-pro-weblog" />
         <module name="lib-mllib-purchaseforecast" />
         <module name="share-flink-connectors-hbase" />
@@ -57,13 +57,12 @@
         <module name="lib-mllib-runrecommender" />
         <module name="share-flink-connectors-kafka" />
         <module name="share-client-es" />
-        <module name="lib-spark" />
-        <module name="share-spark-launcher" />
         <module name="share-client-hdfs" />
+        <module name="lib-spark" />
+        <module name="share-spark-connectors-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bigdata" target="1.5" />
       <module name="bin" target="1.5" />
       <module name="demo-admin" target="1.8" />
       <module name="doc" target="1.5" />
@@ -90,7 +89,6 @@
       <module name="lib-springboot" target="1.5" />
       <module name="lib-springboot-demo" target="1.5" />
       <module name="lib-springboot-demo (1)" target="1.8" />
-      <module name="lib-springboot-demo (2)" target="1.8" />
       <module name="lib-springboot-flink" target="1.8" />
       <module name="lib-springboot-hbase" target="1.8" />
       <module name="lib-springboot-mysql" target="1.8" />
@@ -132,8 +130,7 @@
       <module name="share-spark-ml" target="1.5" />
       <module name="share-spark-restful" target="1.5" />
       <module name="share-util" target="1.5" />
-      <module name="spark" target="1.5" />
-      <module name="tmp" target="1.8" />
+      <module name="tmp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -142,7 +139,6 @@
       <module name="lib-pro-weblog" options="-parameters" />
       <module name="lib-springboot-demo" options="" />
       <module name="lib-springboot-demo (1)" options="-parameters" />
-      <module name="lib-springboot-demo (2)" options="-parameters" />
       <module name="lib-springboot-flink" options="-parameters" />
       <module name="lib-springboot-hbase" options="-parameters" />
       <module name="lib-springboot-mysql" options="-parameters" />

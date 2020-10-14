@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.flink:flink-connector-redis_2.10:1.1.5">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-redis_2.10/1.1.5/flink-connector-redis_2.10-1.1.5.jar!/" />
+      <root url="jar://D:/share/apache-maven-3.5.4-bin/m2/repository/org/apache/flink/flink-connector-redis_2.10/1.1.5/flink-connector-redis_2.10-1.1.5.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-redis_2.10/1.1.5/flink-connector-redis_2.10-1.1.5-javadoc.jar!/" />
+      <root url="jar://D:/share/apache-maven-3.5.4-bin/m2/repository/org/apache/flink/flink-connector-redis_2.10/1.1.5/flink-connector-redis_2.10-1.1.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-redis_2.10/1.1.5/flink-connector-redis_2.10-1.1.5-sources.jar!/" />
+      <root url="jar://D:/share/apache-maven-3.5.4-bin/m2/repository/org/apache/flink/flink-connector-redis_2.10/1.1.5/flink-connector-redis_2.10-1.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

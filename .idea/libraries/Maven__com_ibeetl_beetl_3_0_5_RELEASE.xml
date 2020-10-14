@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.ibeetl:beetl:3.0.5.RELEASE">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/ibeetl/beetl/3.0.5.RELEASE/beetl-3.0.5.RELEASE.jar!/" />
+      <root url="jar://D:/share/apache-maven-3.5.4-bin/m2/repository/com/ibeetl/beetl/3.0.5.RELEASE/beetl-3.0.5.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/ibeetl/beetl/3.0.5.RELEASE/beetl-3.0.5.RELEASE-javadoc.jar!/" />
+      <root url="jar://D:/share/apache-maven-3.5.4-bin/m2/repository/com/ibeetl/beetl/3.0.5.RELEASE/beetl-3.0.5.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/ibeetl/beetl/3.0.5.RELEASE/beetl-3.0.5.RELEASE-sources.jar!/" />
+      <root url="jar://D:/share/apache-maven-3.5.4-bin/m2/repository/com/ibeetl/beetl/3.0.5.RELEASE/beetl-3.0.5.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
