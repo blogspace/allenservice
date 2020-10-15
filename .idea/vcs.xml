@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datacenter-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/parrot-data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/parrot-data-operator" vcs="Git" />
   </component>
 </project>
